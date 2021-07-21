@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Library Management</string>
+    <string name="enter_updated_name">Enter Updated Name</string>
+</resources>

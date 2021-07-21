@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hapticFeedbackEnabled="true"
+    android:visibility="visible"
+    tools:context=".RecordDetails">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE YOUR RECORD DETAILS"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:id="@+id/headupd"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Updated Name"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:id="@+id/upd_name"
+        android:layout_below="@id/headupd"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Updated Author"
+        android:layout_below="@id/upd_name"
+        android:inputType="text"
+        android:id="@+id/upd_author"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:layout_below="@id/upd_author"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/update"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:id="@+id/delete"
+        android:layout_below="@id/upd_author"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        />
+
+
+</RelativeLayout>
